@@ -1,0 +1,28 @@
+git init - cria a pasta .git e criando repositorio dentro do diretorio
+
+git status  ve se os arquivos foram alterados ou nao
+
+git add *   é usado para adicionar arquivos novos e modificados do diretório atual.
+
+git add .  é usado para adicionar arquivos novos e modificados mas não os deletados.
+
+git commit -m "informar o que foi adicionado nesse commit"
+
+git push origin master  > senha do ssh
+
+------ apontando o github
+criar repositorio no github depois:
+
+git remote add origin git@github.com:duduike/livro-receitas.git
+
+git pull origin master  - puxa edicoes alteradas do github 
+
+git remote -v  - para listar as lista de respositorio remoto
+
+git push origin master  > senha do ssh
+
+
+------ clonando repositorio
+git clone https://github.com/duduike/Dark-and-Light-.git
+
+
